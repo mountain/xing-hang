@@ -1,0 +1,13 @@
+{
+  "astrial/src/board.json": "cc243861afcb55365d249b71c297fe2bbbce4665a4bf5c79076db10f7d67e186",
+  "astrial/src/data.rs": "33a1dfde9a9c65aa07851b1a55f748c24e38939b41dccef90efa48300c6e9747",
+  "polyclash/polyclash/web/data/board.json": "cc243861afcb55365d249b71c297fe2bbbce4665a4bf5c79076db10f7d67e186",
+  "polyclash/polyclash/data/data.py": "58a953ce5e6dd2447ceca472c6590a3041242bf9a3c84109a1ee83453b0875b5",
+  "polyclash/model3d/board.npz": "99cd22c8e06a2820678f27be0a892854c11e84619bea21ccc48612b3bab9b26c",
+  "polyclash/model3d/snub_dodecahedron_new.npz": "5e8bdfe960fd3a8b8181e3054da6624b67f8d72957ea3feed92b816911814488",
+  "polyclash/scripts/gen_mesh.py": "91b0cf903a165ccc1d9ffa250d7e0615a5bac5620a5a0cab1f6ae11dc8161c4d",
+  "polyclash/scripts/reindex.py": "98e11d68bf3fc21c054de974bffd7c728c624cfffc685e06cff75e9e23ebfc11",
+  "polyclash/scripts/gen_cities.py": "180f757cc77eb984fbfee713431749a6f7791d10fff6e70d87f943f1a86e39ec",
+  "polyclash/scripts/gen_board.py": "f1d555e429303b6a72d392f86dcb558db5624ff425dbc3bc51319f531cbb8667",
+  "polyclash/scripts/export_data.py": "968541ee366b1363a171082c6447f8b6f9452268525dcbc9922e95567cf486dd"
+}

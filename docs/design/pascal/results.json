@@ -1,0 +1,1016 @@
+{
+  "versions": {
+    "numpy": "2.3.3"
+  },
+  "source_sha256": {
+    "astrial/src/board.json": "cc243861afcb55365d249b71c297fe2bbbce4665a4bf5c79076db10f7d67e186",
+    "astrial/src/data.rs": "33a1dfde9a9c65aa07851b1a55f748c24e38939b41dccef90efa48300c6e9747",
+    "polyclash/polyclash/web/data/board.json": "cc243861afcb55365d249b71c297fe2bbbce4665a4bf5c79076db10f7d67e186",
+    "polyclash/polyclash/data/data.py": "58a953ce5e6dd2447ceca472c6590a3041242bf9a3c84109a1ee83453b0875b5",
+    "polyclash/model3d/board.npz": "99cd22c8e06a2820678f27be0a892854c11e84619bea21ccc48612b3bab9b26c",
+    "polyclash/model3d/snub_dodecahedron_new.npz": "5e8bdfe960fd3a8b8181e3054da6624b67f8d72957ea3feed92b816911814488",
+    "polyclash/scripts/gen_mesh.py": "91b0cf903a165ccc1d9ffa250d7e0615a5bac5620a5a0cab1f6ae11dc8161c4d",
+    "polyclash/scripts/reindex.py": "98e11d68bf3fc21c054de974bffd7c728c624cfffc685e06cff75e9e23ebfc11",
+    "polyclash/scripts/gen_cities.py": "180f757cc77eb984fbfee713431749a6f7791d10fff6e70d87f943f1a86e39ec",
+    "polyclash/scripts/gen_board.py": "f1d555e429303b6a72d392f86dcb558db5624ff425dbc3bc51319f531cbb8667",
+    "polyclash/scripts/export_data.py": "968541ee366b1363a171082c6447f8b6f9452268525dcbc9922e95567cf486dd"
+  },
+  "source_comparison": {
+    "static_board_files_byte_identical": true,
+    "npz_json_max_coordinate_difference": 4.986611679136388e-10,
+    "npz_centroid_reconstruction_max_error": 0.0,
+    "npz_sphere_ideal_six_max_coordinate_error": 1.6653345369377348e-16,
+    "halfturn_symmetry_max_nearest_vertex_error": {
+      "62": 3.387999773988765e-16,
+      "83": 4.041272810440265e-16,
+      "106": 3.3306690738754696e-16,
+      "67": 6.843874359417885e-16,
+      "88": 4.1540741810552243e-16,
+      "109": 4.577566798522237e-16
+    }
+  },
+  "settings": {
+    "basis_rows_X_Y_Z_in_source_frame": [
+      [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        0.408248290463863,
+        0.408248290463863,
+        -0.816496580927726
+      ],
+      [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ]
+    ],
+    "hemisphere": "normalized source point dot Z > 0",
+    "equator_exclusion_abs_z_le": 1e-08,
+    "latitude_complete_span_tolerance": 1e-08,
+    "conic_svd_ratio_tolerance": 1e-08,
+    "nondegeneracy_ratio_floor": 1e-06
+  },
+  "search": {
+    "positive_stable_count": 148,
+    "negative_stable_count": 148,
+    "excluded_equatorial_ids": [
+      118,
+      127,
+      137,
+      149,
+      164,
+      174
+    ],
+    "smallest_retained_z": 0.010670880637497757,
+    "largest_affine_radius": 93.70764218077372,
+    "latitude_cluster_count": 47,
+    "rings_at_least_six": [
+      {
+        "ids": [
+          217,
+          230,
+          240,
+          245,
+          247,
+          258
+        ],
+        "mean_z": 0.3333333333333333,
+        "height_spread": 5.551115123125783e-17
+      },
+      {
+        "ids": [
+          62,
+          67,
+          83,
+          88,
+          106,
+          109
+        ],
+        "mean_z": 0.5773502691896258,
+        "height_spread": 1.1102230246251565e-16
+      },
+      {
+        "ids": [
+          69,
+          70,
+          77,
+          90,
+          91,
+          101
+        ],
+        "mean_z": 0.9341723589627158,
+        "height_spread": 2.220446049250313e-16
+      }
+    ],
+    "latitude_sextuples_tested": 3,
+    "all_hemisphere_sextuples_not_enumerated": 13172431272
+  },
+  "runtime_json_search": {
+    "positive_stable_count": 148,
+    "negative_stable_count": 148,
+    "excluded_equatorial_ids": [
+      118,
+      127,
+      137,
+      149,
+      164,
+      174
+    ],
+    "smallest_retained_z": 0.010670880543410144,
+    "largest_affine_radius": 93.7076430071097,
+    "latitude_cluster_count": 47,
+    "rings_at_least_six": [
+      {
+        "ids": [
+          217,
+          230,
+          240,
+          245,
+          247,
+          258
+        ],
+        "mean_z": 0.3333333334219768,
+        "height_spread": 1.7728674084338536e-10
+      },
+      {
+        "ids": [
+          62,
+          67,
+          83,
+          88,
+          106,
+          109
+        ],
+        "mean_z": 0.57735026939705,
+        "height_spread": 4.148482668497877e-10
+      },
+      {
+        "ids": [
+          69,
+          70,
+          77,
+          90,
+          91,
+          101
+        ],
+        "mean_z": 0.9341723589644756,
+        "height_spread": 1.452484799102649e-10
+      }
+    ],
+    "latitude_sextuples_tested": 3,
+    "all_hemisphere_sextuples_not_enumerated": 13172431272
+  },
+  "points": [
+    {
+      "label": "A",
+      "id": 62,
+      "encoder": [
+        6,
+        35
+      ],
+      "sphere_source_xyz_npz": [
+        7.357137930844831e-17,
+        -4.414282758506899e-17,
+        1.0
+      ],
+      "sphere_fixed_XYZ_npz": [
+        8.323651393640231e-17,
+        -0.816496580927726,
+        0.5773502691896258
+      ],
+      "projection_XY_npz": [
+        1.4416987118276372e-16,
+        -1.414213562373095
+      ],
+      "projection_XY_json": [
+        1.4416987113886265e-16,
+        -1.414213562373095
+      ]
+    },
+    {
+      "label": "B",
+      "id": 83,
+      "encoder": [
+        1,
+        18
+      ],
+      "sphere_source_xyz_npz": [
+        1.0,
+        7.357137930844831e-17,
+        -4.414282758506899e-17
+      ],
+      "sphere_fixed_XYZ_npz": [
+        0.7071067811865475,
+        0.40824829046386313,
+        0.5773502691896258
+      ],
+      "projection_XY_npz": [
+        1.2247448713915887,
+        0.7071067811865476
+      ],
+      "projection_XY_json": [
+        1.2247448713915887,
+        0.7071067811865476
+      ]
+    },
+    {
+      "label": "C",
+      "id": 106,
+      "encoder": [
+        10,
+        49
+      ],
+      "sphere_source_xyz_npz": [
+        -5.885710344675864e-17,
+        1.0,
+        4.414282758506898e-17
+      ],
+      "sphere_fixed_XYZ_npz": [
+        -0.7071067811865475,
+        0.40824829046386296,
+        0.5773502691896258
+      ],
+      "projection_XY_npz": [
+        -1.2247448713915887,
+        0.7071067811865474
+      ],
+      "projection_XY_json": [
+        -1.2247448713915887,
+        0.7071067811865474
+      ]
+    },
+    {
+      "label": "D",
+      "id": 67,
+      "encoder": [
+        3,
+        36
+      ],
+      "sphere_source_xyz_npz": [
+        0.5,
+        -0.3090169943749473,
+        0.8090169943749475
+      ],
+      "sphere_fixed_XYZ_npz": [
+        0.5720614028176841,
+        -0.5825911242654919,
+        0.577350269189626
+      ],
+      "projection_XY_npz": [
+        0.9908394147293543,
+        -1.009077427266505
+      ],
+      "projection_XY_json": [
+        0.9908394139422356,
+        -1.009077425903175
+      ]
+    },
+    {
+      "label": "E",
+      "id": 109,
+      "encoder": [
+        8,
+        48
+      ],
+      "sphere_source_xyz_npz": [
+        -0.30901699437494745,
+        0.8090169943749475,
+        0.5
+      ],
+      "sphere_fixed_XYZ_npz": [
+        -0.7905694150420948,
+        -0.2041241452319315,
+        0.5773502691896258
+      ],
+      "projection_XY_npz": [
+        -1.369306393762915,
+        -0.35355339059327373
+      ],
+      "projection_XY_json": [
+        -1.3693063921886766,
+        -0.35355339059327373
+      ]
+    },
+    {
+      "label": "F",
+      "id": 88,
+      "encoder": [
+        12,
+        17
+      ],
+      "sphere_source_xyz_npz": [
+        0.8090169943749473,
+        0.5000000000000001,
+        -0.30901699437494745
+      ],
+      "sphere_fixed_XYZ_npz": [
+        0.21850801222441033,
+        0.7867152694974234,
+        0.5773502691896258
+      ],
+      "projection_XY_npz": [
+        0.37846697903355997,
+        1.362630817859779
+      ],
+      "projection_XY_json": [
+        0.378466978246441,
+        1.3626308164964485
+      ]
+    }
+  ],
+  "cases": {
+    "npz_float64": {
+      "conic": {
+        "ids": [
+          62,
+          83,
+          106,
+          67,
+          109,
+          88
+        ],
+        "singular_values_row_normalized": [
+          1.6670725744831674,
+          1.1284809837251184,
+          1.0159424214239687,
+          0.7523723674851209,
+          0.5909285217121376,
+          1.0298590372413768e-16
+        ],
+        "smin_over_smax": 6.177649689670276e-17,
+        "snext_over_smax": 0.35447078355022404,
+        "coefficient_order": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "fit_coefficients_unit_l2": [
+          -0.40824829046386296,
+          2.220446049250313e-16,
+          -0.4082482904638629,
+          -2.811276164230216e-17,
+          -3.28885360634171e-17,
+          0.8164965809277258
+        ],
+        "fit_max_row_residual": 1.6653345369377348e-16,
+        "Q_singular_values": [
+          0.8164965809277258,
+          0.4082482904638629,
+          0.4082482904638629
+        ],
+        "Q_smin_over_smax": 0.5,
+        "Q_det_over_frobenius_cubed": 0.1360827634879543,
+        "candidate_circle_max_row_residual": 2.7755575615628914e-16,
+        "minimum_abs_triple_determinant": 0.30901699437494723
+      },
+      "pascal": {
+        "order_ABCDEF": [
+          62,
+          83,
+          106,
+          67,
+          109,
+          88
+        ],
+        "intersection_definitions": [
+          "AB intersect DE",
+          "BC intersect EF",
+          "CD intersect FA"
+        ],
+        "intersections_unit_homogeneous": [
+          [
+            0.252311319355707,
+            -0.6170765289406386,
+            0.74535599249993
+          ],
+          [
+            0.2297529205473613,
+            -0.5619055660577251,
+            -0.7946544722917661
+          ],
+          [
+            -0.13504537836886316,
+            0.330279804909785,
+            -0.9341723589627158
+          ]
+        ],
+        "intersections_affine": [
+          [
+            0.33851115694321154,
+            -0.8278950396185304
+          ],
+          [
+            -0.2891230447426526,
+            0.7071067811865474
+          ],
+          [
+            0.14456152237132613,
+            -0.35355339059327373
+          ]
+        ],
+        "chord_cross_norms": [
+          1.0,
+          1.0,
+          1.0,
+          0.9999999999999999,
+          0.9510565162951536,
+          0.9510565162951536
+        ],
+        "paired_line_cross_norms": [
+          0.8660254037844388,
+          0.5877852522924732,
+          0.8944271909999159
+        ],
+        "intersection_pair_cross_norms": [
+          0.9822469463768458,
+          0.8506508083520399,
+          0.3568220897730898
+        ],
+        "collinearity_singular_values": [
+          1.4693487286429123,
+          0.9170683255000454,
+          1.3593073593363817e-16
+        ],
+        "smin_over_smax": 9.25108745690232e-17,
+        "pascal_line_unit_l2": [
+          0.925614793410958,
+          0.37846697903356064,
+          2.825722769412438e-17
+        ],
+        "max_normalized_incidence_residual": 1.2625854483319228e-16
+      },
+      "counterexample": {
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "singular_values_row_normalized": [
+          2.0705446125395035,
+          1.0644474799515942,
+          0.6802501090783009,
+          0.292246487924119,
+          0.1480127187328303,
+          0.09869439901349733
+        ],
+        "smin_over_smax": 0.04766591283075498,
+        "snext_over_smax": 0.07148492132767625,
+        "coefficient_order": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "fit_coefficients_unit_l2": [
+          0.18033041041325817,
+          -0.2507414154591041,
+          0.7576425318410854,
+          -0.422088399600443,
+          0.3865938825058714,
+          0.054534691077821336
+        ],
+        "fit_max_row_residual": 0.04937612821212017,
+        "Q_singular_values": [
+          0.8546189622673075,
+          0.24905185103608998,
+          0.1111631799712324
+        ],
+        "Q_smin_over_smax": 0.13007338343665584,
+        "Q_det_over_frobenius_cubed": -0.03277370887704114,
+        "candidate_circle_max_row_residual": 0.7543788089018116,
+        "minimum_abs_triple_determinant": 0.019831946504774753
+      },
+      "latitude_rings": [
+        {
+          "ids": [
+            217,
+            230,
+            240,
+            245,
+            247,
+            258
+          ],
+          "singular_values_row_normalized": [
+            1.7538240079691365,
+            1.2098302295755483,
+            0.9387195601306941,
+            0.562492892534311,
+            0.5126592415558963,
+            8.595842338296117e-17
+          ],
+          "smin_over_smax": 4.901200062969708e-17,
+          "snext_over_smax": 0.2923093989057299,
+          "coefficient_order": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "fit_coefficients_unit_l2": [
+            0.1230914909793327,
+            0.0,
+            0.12309149097933261,
+            5.607664175433048e-17,
+            1.4381582880300327e-16,
+            -0.9847319278346619
+          ],
+          "fit_max_row_residual": 1.942890293094024e-16,
+          "Q_singular_values": [
+            0.984731927834662,
+            0.1230914909793327,
+            0.12309149097933263
+          ],
+          "Q_smin_over_smax": 0.12499999999999988,
+          "Q_det_over_frobenius_cubed": -0.01492018072476759,
+          "candidate_circle_max_row_residual": 0.32442769821886064,
+          "minimum_abs_triple_determinant": 0.2378813931820599
+        },
+        {
+          "ids": [
+            62,
+            67,
+            83,
+            88,
+            106,
+            109
+          ],
+          "singular_values_row_normalized": [
+            1.6670725744831674,
+            1.128480983725118,
+            1.0159424214239687,
+            0.7523723674851206,
+            0.5909285217121375,
+            9.683153499068164e-17
+          ],
+          "smin_over_smax": 5.808477475595311e-17,
+          "snext_over_smax": 0.354470783550224,
+          "coefficient_order": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "fit_coefficients_unit_l2": [
+            -0.4082482904638631,
+            2.220446049250313e-16,
+            -0.4082482904638632,
+            1.5629470658946614e-16,
+            1.2016675249555998e-16,
+            0.816496580927726
+          ],
+          "fit_max_row_residual": 2.220446049250313e-16,
+          "Q_singular_values": [
+            0.816496580927726,
+            0.4082482904638633,
+            0.4082482904638631
+          ],
+          "Q_smin_over_smax": 0.5000000000000001,
+          "Q_det_over_frobenius_cubed": 0.1360827634879544,
+          "candidate_circle_max_row_residual": 2.7755575615628914e-16,
+          "minimum_abs_triple_determinant": 0.30901699437494723
+        },
+        {
+          "ids": [
+            69,
+            70,
+            77,
+            90,
+            91,
+            101
+          ],
+          "singular_values_row_normalized": [
+            2.2819230161745145,
+            0.6195990520297397,
+            0.6160393733554812,
+            0.13977756638050637,
+            0.09940867864218206,
+            3.2080476960226746e-16
+          ],
+          "smin_over_smax": 1.4058527274074055e-16,
+          "snext_over_smax": 0.04356355492168785,
+          "coefficient_order": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "fit_coefficients_unit_l2": [
+            0.7033736435651385,
+            -1.942890293094024e-16,
+            0.7033736435651391,
+            -6.826966019354024e-17,
+            3.036500495673571e-17,
+            -0.10262083158794882
+          ],
+          "fit_max_row_residual": 1.8041124150158794e-16,
+          "Q_singular_values": [
+            0.703373643565139,
+            0.7033736435651385,
+            0.10262083158794884
+          ],
+          "Q_smin_over_smax": 0.14589803375031524,
+          "Q_det_over_frobenius_cubed": -0.050770064005494074,
+          "candidate_circle_max_row_residual": 0.7021314562236837,
+          "minimum_abs_triple_determinant": 0.08936863036458559
+        }
+      ]
+    },
+    "runtime_json_rounded": {
+      "conic": {
+        "ids": [
+          62,
+          83,
+          106,
+          67,
+          109,
+          88
+        ],
+        "singular_values_row_normalized": [
+          1.6670725745257098,
+          1.1284809835371283,
+          1.0159424214216335,
+          0.7523723676496198,
+          0.590928521745694,
+          8.455017747396205e-10
+        ],
+        "smin_over_smax": 5.07177544433043e-10,
+        "snext_over_smax": 0.3544707835613072,
+        "coefficient_order": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "fit_coefficients_unit_l2": [
+          -0.40824829074662783,
+          2.002786825272551e-11,
+          -0.4082482907677826,
+          -1.4161698577121804e-11,
+          3.2908042148811925e-11,
+          0.8164965806343841
+        ],
+        "fit_max_row_residual": 3.5820435506650483e-10,
+        "Q_singular_values": [
+          0.8164965806343844,
+          0.408248290771771,
+          0.40824829074263946
+        ],
+        "Q_smin_over_smax": 0.5000000005210644,
+        "Q_det_over_frobenius_cubed": 0.1360827636346254,
+        "candidate_circle_max_row_residual": 7.185184114355536e-10,
+        "minimum_abs_triple_determinant": 0.3090169939543077
+      },
+      "pascal": {
+        "order_ABCDEF": [
+          62,
+          83,
+          106,
+          67,
+          109,
+          88
+        ],
+        "intersection_definitions": [
+          "AB intersect DE",
+          "BC intersect EF",
+          "CD intersect FA"
+        ],
+        "intersections_unit_homogeneous": [
+          [
+            0.25231131978023547,
+            -0.6170765285082961,
+            0.7453559927141566
+          ],
+          [
+            0.22975291981502746,
+            -0.5619055661575378,
+            -0.7946544724329225
+          ],
+          [
+            -0.13504537825525234,
+            0.3302798044314923,
+            -0.9341723591482415
+          ]
+        ],
+        "intersections_affine": [
+          [
+            0.338511157415483,
+            -0.8278950388005324
+          ],
+          [
+            -0.2891230437697198,
+            0.7071067811865475
+          ],
+          [
+            0.14456152222099983,
+            -0.35355339001106223
+          ]
+        ],
+        "chord_cross_norms": [
+          1.0,
+          1.0000000000000002,
+          1.0,
+          1.0,
+          0.9510565164318278,
+          0.9510565164318278
+        ],
+        "paired_line_cross_norms": [
+          0.8660254037844386,
+          0.5877852525658213,
+          0.8944271909204762
+        ],
+        "intersection_pair_cross_norms": [
+          0.9822469462729454,
+          0.8506508079564469,
+          0.3568220899586157
+        ],
+        "collinearity_singular_values": [
+          1.4693487288351956,
+          0.9170683251919645,
+          4.855652199274094e-10
+        ],
+        "smin_over_smax": 3.3046288494926187e-10,
+        "pascal_line_unit_l2": [
+          0.9256147934460657,
+          0.37846697894769776,
+          -8.296963773513491e-10
+        ],
+        "max_normalized_incidence_residual": 6.661215517032586e-10
+      },
+      "counterexample": {
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "singular_values_row_normalized": [
+          2.0705446125793956,
+          1.0644474799721972,
+          0.6802501089129361,
+          0.29224648811474985,
+          0.14801271847542832,
+          0.09869439891567561
+        ],
+        "smin_over_smax": 0.04766591278259219,
+        "snext_over_smax": 0.07148492120198291,
+        "coefficient_order": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "fit_coefficients_unit_l2": [
+          0.18033041020883894,
+          -0.25074141248124554,
+          0.7576425341026319,
+          -0.42208839907394546,
+          0.38659388075199813,
+          0.05453469053425646
+        ],
+        "fit_max_row_residual": 0.049376127997428784,
+        "Q_singular_values": [
+          0.8546189628921029,
+          0.2490518521140707,
+          0.11116318016044614
+        ],
+        "Q_smin_over_smax": 0.130073383562963,
+        "Q_det_over_frobenius_cubed": -0.03277370899803491,
+        "candidate_circle_max_row_residual": 0.7543788091388712,
+        "minimum_abs_triple_determinant": 0.019831946391386922
+      },
+      "latitude_rings": [
+        {
+          "ids": [
+            217,
+            230,
+            240,
+            245,
+            247,
+            258
+          ],
+          "singular_values_row_normalized": [
+            1.7538240079209226,
+            1.209830229512202,
+            0.9387195600818263,
+            0.5624928927340167,
+            0.5126592417406919,
+            1.790139943380829e-10
+          ],
+          "smin_over_smax": 1.0207067158938925e-10,
+          "snext_over_smax": 0.2923093990191329,
+          "coefficient_order": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "fit_coefficients_unit_l2": [
+            0.12309149104791911,
+            -5.363598454266594e-12,
+            0.12309149105358452,
+            -7.585199941284065e-12,
+            1.7626710369553898e-11,
+            -0.9847319278168071
+          ],
+          "fit_max_row_residual": 7.744901941997284e-11,
+          "Q_singular_values": [
+            0.9847319278168073,
+            0.12309149105465264,
+            0.123091491046851
+          ],
+          "Q_smin_over_smax": 0.12500000007083156,
+          "Q_det_over_frobenius_cubed": -0.014920180741810805,
+          "candidate_circle_max_row_residual": 0.3244276980559084,
+          "minimum_abs_triple_determinant": 0.23788139303392827
+        },
+        {
+          "ids": [
+            62,
+            67,
+            83,
+            88,
+            106,
+            109
+          ],
+          "singular_values_row_normalized": [
+            1.6670725745257093,
+            1.128480983537128,
+            1.0159424214216333,
+            0.75237236764962,
+            0.5909285217456938,
+            8.455017512285562e-10
+          ],
+          "smin_over_smax": 5.071775303298393e-10,
+          "snext_over_smax": 0.3544707835613071,
+          "coefficient_order": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "fit_coefficients_unit_l2": [
+            -0.4082482907466278,
+            2.0027646208120586e-11,
+            -0.4082482907677824,
+            -1.4161607845996798e-11,
+            3.290807357640048e-11,
+            0.8164965806343841
+          ],
+          "fit_max_row_residual": 3.5820424404420237e-10,
+          "Q_singular_values": [
+            0.8164965806343841,
+            0.4082482907717706,
+            0.40824829074263946
+          ],
+          "Q_smin_over_smax": 0.5000000005210645,
+          "Q_det_over_frobenius_cubed": 0.1360827636346254,
+          "candidate_circle_max_row_residual": 7.185184114355536e-10,
+          "minimum_abs_triple_determinant": 0.3090169939543077
+        },
+        {
+          "ids": [
+            69,
+            70,
+            77,
+            90,
+            91,
+            101
+          ],
+          "singular_values_row_normalized": [
+            2.2819230161791118,
+            0.6195990520455941,
+            0.6160393733606622,
+            0.13977756626801116,
+            0.09940867856388319,
+            2.8445793753117327e-10
+          ],
+          "smin_over_smax": 1.2465711398427198e-10,
+          "snext_over_smax": 0.04356355488728742,
+          "coefficient_order": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "fit_coefficients_unit_l2": [
+            0.70337364356649,
+            -7.991940442764189e-13,
+            0.7033736435642262,
+            -2.3107918818269037e-13,
+            -3.269666266993572e-13,
+            -0.10262083158494445
+          ],
+          "fit_max_row_residual": 1.1626156981581204e-10,
+          "Q_singular_values": [
+            0.7033736435665584,
+            0.7033736435641577,
+            0.10262083158494446
+          ],
+          "Q_smin_over_smax": 0.14589803374574942,
+          "Q_det_over_frobenius_cubed": -0.05077006400403932,
+          "candidate_circle_max_row_residual": 0.7021314560913321,
+          "minimum_abs_triple_determinant": 0.08936863017028658
+        }
+      ]
+    }
+  },
+  "exact_evidence": {
+    "sympy_version": "1.14.0",
+    "ideal_conic_matrix_rank": 5,
+    "ideal_circle_residuals": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "ideal_Q": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -2
+      ]
+    ],
+    "ideal_Q_determinant": -2,
+    "ideal_pascal_intersections_affine": [
+      [
+        "-sqrt(30)/20 + sqrt(6)/4",
+        "-3*sqrt(10)/20 - sqrt(2)/4",
+        "1"
+      ],
+      [
+        "-sqrt(30)/2 + sqrt(6)",
+        "sqrt(2)/2",
+        "1"
+      ],
+      [
+        "-sqrt(6)/2 + sqrt(30)/4",
+        "-sqrt(2)/4",
+        "1"
+      ]
+    ],
+    "ideal_pascal_line_coefficients_Y_one": [
+      "2*sqrt(3)/3 + sqrt(15)/3",
+      "1",
+      "0"
+    ],
+    "ideal_pascal_incidence_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "runtime_json_decimal_coordinates_as_exact_rationals": {
+      "selected_sextuple": {
+        "rank": 6,
+        "determinant_nonzero": true,
+        "exact_determinant_source_frame": "521455629933601686856225558229561911813416302463756918598997013443069745749544319878601364810650455837517420653039601298781060588945636638525066503365858786623165136836455162238967077935711581/3906250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "counterexample": {
+        "rank": 6,
+        "determinant_nonzero": true,
+        "exact_determinant_source_frame": "-181650893732482488645787305127300128345903244437778474627951968211355745298139999689029073996482119301/78125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    "warning": "Exact ideal identities do not make rounded runtime coordinates exactly conconic."
+  }
+}
